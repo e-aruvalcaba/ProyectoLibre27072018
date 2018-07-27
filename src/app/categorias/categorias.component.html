@@ -1,0 +1,26 @@
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-light gradiante">
+    <a class="navbar-brand" href="#">PC Online</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" routerLink="/categorias/gabos">Gabinetes
+          <!--<span class="sr-only">(current)</span>-->
+        </a>
+        <a class="nav-item nav-link" routerLink="/categorias/fuentes">Fuentes de poder</a>
+        <a class="nav-item nav-link" routerLink="/categorias/memorias">Memoria Ram</a>
+        <a class="nav-item nav-link" routerLink="/categorias/procesadores">Procesadores</a>
+        <a class="nav-item nav-link" routerLink="/categorias/motherboard">Tarjetas Madre</a>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<div class="jumbotron jumbotron-fluid" [ngStyle]="{'background-image': miRGB(),'height': '250px', 'color': 'white'}">
+  <div class="container">
+  </div>
+</div>
+<router-outlet></router-outlet>

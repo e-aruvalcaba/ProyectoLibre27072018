@@ -1,0 +1,14 @@
+.gradiante{
+    background: rgba(151,204,226,1);
+    background: -moz-linear-gradient(left, rgba(151,204,226,1) 0%, rgba(82,160,199,0.95) 53%, rgba(82,160,199,0.9) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(151,204,226,1)), color-stop(53%, rgba(82,160,199,0.95)), color-stop(100%, rgba(82,160,199,0.9)));
+    background: -webkit-linear-gradient(left, rgba(151,204,226,1) 0%, rgba(82,160,199,0.95) 53%, rgba(82,160,199,0.9) 100%);
+    background: -o-linear-gradient(left, rgba(151,204,226,1) 0%, rgba(82,160,199,0.95) 53%, rgba(82,160,199,0.9) 100%);
+    background: -ms-linear-gradient(left, rgba(151,204,226,1) 0%, rgba(82,160,199,0.95) 53%, rgba(82,160,199,0.9) 100%);
+    background: linear-gradient(to right, rgba(151,204,226,1) 0%, rgba(82,160,199,0.95) 53%, rgba(82,160,199,0.9) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#97cce2', endColorstr='#52a0c7', GradientType=1 );
+    border-radius: 49px 0px 51px 53px;
+    -moz-border-radius: 49px 0px 51px 53px;
+    -webkit-border-radius: 49px 0px 51px 53px;
+    border: 0px solid #000000;
+}
